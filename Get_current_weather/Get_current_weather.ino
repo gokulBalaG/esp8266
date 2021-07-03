@@ -3,10 +3,10 @@
 #include <WiFiClient.h>
 #include <Arduino_JSON.h>
 
-const char* ssid = "RAMAH";
-const char* password = "9019626224";
+const char* ssid = "wifi_ssid";
+const char* password = "wifi_password";
 
-String openWeatherMapApiKey = "e13c30e6156fd23ffbd3465bf460ccce";
+String openWeatherMapApiKey = "Your_api_key";
 
 String city = "Mysore";
 String countryCode = "IN";
